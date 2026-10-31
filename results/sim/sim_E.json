@@ -1,0 +1,19 @@
+{
+ "E": {
+  "erm": {
+   "avg_mse": 0.751092725565802,
+   "avg_mse_without_heavy": 0.2684659514900248,
+   "median_var_mse": 0.23280702836124448
+  },
+  "normalised": {
+   "avg_mse": 0.7571383177911603,
+   "avg_mse_without_heavy": 0.2687095391401033,
+   "median_var_mse": 0.2326726834376672
+  },
+  "group_dro": {
+   "avg_mse": 0.9690353648825082,
+   "avg_mse_without_heavy": 0.5257760823101059,
+   "median_var_mse": 0.5130680679437338
+  }
+ }
+}

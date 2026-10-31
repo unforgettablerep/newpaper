@@ -1,0 +1,15 @@
+{
+ "D": {
+  "single": 0.2549955154016585,
+  "output_ensemble": 0.2514524230622823,
+  "weight_avg_from_scratch": 0.9494278089592054,
+  "ema": 0.2532682808234333,
+  "swa_one_run": 0.25601013337180184,
+  "seed_variance": 0.0035430923393761082,
+  "predicted_ensemble_gain": 0.0028344738715008863,
+  "shared_start_single": 0.2550824379222272,
+  "shared_start_output_ensemble": 0.25219808905684843,
+  "shared_start_soup": 0.25220599420531964,
+  "actual_ensemble_gain": 0.0035430923393761082
+ }
+}

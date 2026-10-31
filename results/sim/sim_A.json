@@ -1,0 +1,1359 @@
+{
+ "A": {
+  "tau=0.0 rho=0.0 drift=level timing=test": {
+   "global": {
+    "all": 0.3624127610658361,
+    "drifted": null,
+    "stable_vars": 0.3624127610658361
+   },
+   "local": {
+    "all": 0.36470330279222934,
+    "drifted": null,
+    "stable_vars": 0.36470330279222934
+   },
+   "static_bg": {
+    "all": 0.36266917039331986,
+    "drifted": null,
+    "stable_vars": 0.36266917039331986
+   },
+   "posterior_val": {
+    "all": 0.36266917039331986,
+    "drifted": null,
+    "stable_vars": 0.36266917039331986
+   },
+   "posterior_fixed": {
+    "all": 0.3626648512747917,
+    "drifted": null,
+    "stable_vars": 0.3626648512747917
+   },
+   "hard_val": {
+    "all": 0.3645300911171437,
+    "drifted": null,
+    "stable_vars": 0.3645300911171437
+   },
+   "oracle_regime": {
+    "all": 0.36266917039331986,
+    "drifted": null,
+    "stable_vars": 0.36266917039331986
+   },
+   "auc_D2": null,
+   "c_val": null,
+   "mean_w_bg": 0.23707167141215754,
+   "theorem_gain_regime_vs_static_opt": 0.0
+  },
+  "tau=0.0 rho=0.1 drift=level timing=test": {
+   "global": {
+    "all": 0.40103038351197967,
+    "drifted": 0.905186459261039,
+    "stable_vars": 0.36333944711626726
+   },
+   "local": {
+    "all": 0.4033629476703693,
+    "drifted": 0.908235247847199,
+    "stable_vars": 0.36567488743598386
+   },
+   "static_bg": {
+    "all": 0.4012626515084167,
+    "drifted": 0.9055575364916294,
+    "stable_vars": 0.36354863141369065
+   },
+   "posterior_val": {
+    "all": 0.4012626515084167,
+    "drifted": 0.9055575364916294,
+    "stable_vars": 0.36354863141369065
+   },
+   "posterior_fixed": {
+    "all": 0.40123756308497155,
+    "drifted": 0.9051563362870247,
+    "stable_vars": 0.36354422428973493
+   },
+   "hard_val": {
+    "all": 0.40303325249313193,
+    "drifted": 0.905016271837669,
+    "stable_vars": 0.3654967531172133
+   },
+   "oracle_regime": {
+    "all": 0.4012424386920952,
+    "drifted": 0.905186459261039,
+    "stable_vars": 0.36354863141369065
+   },
+   "auc_D2": 0.9976132433006208,
+   "c_val": null,
+   "mean_w_bg": 0.23707167141215754,
+   "theorem_gain_regime_vs_static_opt": 2.1166166039669986e-05
+  },
+  "tau=0.0 rho=0.1 drift=level timing=valtest": {
+   "global": {
+    "all": 0.3981517492998165,
+    "drifted": 0.7202240465810763,
+    "stable_vars": 0.36333944711626726
+   },
+   "local": {
+    "all": 0.4005456771471432,
+    "drifted": 0.7239328849943344,
+    "stable_vars": 0.36567488743598386
+   },
+   "static_bg": {
+    "all": 0.39844162259025967,
+    "drifted": 0.7213927561548567,
+    "stable_vars": 0.36354863141369065
+   },
+   "posterior_val": {
+    "all": 0.39844162259025967,
+    "drifted": 0.7213927561548567,
+    "stable_vars": 0.36354863141369065
+   },
+   "posterior_fixed": {
+    "all": 0.3983534987696041,
+    "drifted": 0.7201354171776772,
+    "stable_vars": 0.36354422428973493
+   },
+   "hard_val": {
+    "all": 0.40011306465884405,
+    "drifted": 0.720155557866265,
+    "stable_vars": 0.3654967531172133
+   },
+   "oracle_regime": {
+    "all": 0.39836357948076967,
+    "drifted": 0.7202240465810763,
+    "stable_vars": 0.36354863141369065
+   },
+   "auc_D2": 0.9985510894641427,
+   "c_val": null,
+   "mean_w_bg": 0.24490220291438303,
+   "theorem_gain_regime_vs_static_opt": 1.3687799386725935e-05
+  },
+  "tau=0.0 rho=0.1 drift=profile timing=test": {
+   "global": {
+    "all": 0.3624127610658361,
+    "drifted": 0.36052872488671267,
+    "stable_vars": 0.36333944711626726
+   },
+   "local": {
+    "all": 0.36470330279222934,
+    "drifted": 0.3623797558738889,
+    "stable_vars": 0.36567488743598386
+   },
+   "static_bg": {
+    "all": 0.36266917039331986,
+    "drifted": 0.36117019106409715,
+    "stable_vars": 0.36354863141369065
+   },
+   "posterior_val": {
+    "all": 0.36266917039331986,
+    "drifted": 0.36117019106409715,
+    "stable_vars": 0.36354863141369065
+   },
+   "posterior_fixed": {
+    "all": 0.3626648512747917,
+    "drifted": 0.36116392731553554,
+    "stable_vars": 0.36354422428973493
+   },
+   "hard_val": {
+    "all": 0.3645300911171437,
+    "drifted": 0.3623093484030937,
+    "stable_vars": 0.3654967531172133
+   },
+   "oracle_regime": {
+    "all": 0.3626313212952987,
+    "drifted": 0.36052872488671267,
+    "stable_vars": 0.36354863141369065
+   },
+   "auc_D2": 0.49364203820450153,
+   "c_val": null,
+   "mean_w_bg": 0.23707167141215754,
+   "theorem_gain_regime_vs_static_opt": 5.808771180774809e-06
+  },
+  "tau=0.0 rho=0.1 drift=profile timing=valtest": {
+   "global": {
+    "all": 0.3624127610658361,
+    "drifted": 0.3559846645604094,
+    "stable_vars": 0.36333944711626726
+   },
+   "local": {
+    "all": 0.36470330279222934,
+    "drifted": 0.35799945147506856,
+    "stable_vars": 0.36567488743598386
+   },
+   "static_bg": {
+    "all": 0.36266917039331986,
+    "drifted": 0.3566773049823557,
+    "stable_vars": 0.36354863141369065
+   },
+   "posterior_val": {
+    "all": 0.36266917039331986,
+    "drifted": 0.3566773049823557,
+    "stable_vars": 0.36354863141369065
+   },
+   "posterior_fixed": {
+    "all": 0.3626648512747917,
+    "drifted": 0.35667298166194833,
+    "stable_vars": 0.36354422428973493
+   },
+   "hard_val": {
+    "all": 0.3645300911171437,
+    "drifted": 0.3577876433400036,
+    "stable_vars": 0.3654967531172133
+   },
+   "oracle_regime": {
+    "all": 0.36261748993570997,
+    "drifted": 0.3559846645604094,
+    "stable_vars": 0.36354863141369065
+   },
+   "auc_D2": 0.4989648357971002,
+   "c_val": null,
+   "mean_w_bg": 0.23707167141215754,
+   "theorem_gain_regime_vs_static_opt": 1.3294372830263427e-05
+  },
+  "tau=0.0 rho=0.3 drift=level timing=test": {
+   "global": {
+    "all": 0.5149229099199254,
+    "drifted": 1.0094813448642002,
+    "stable_vars": 0.362907064518597
+   },
+   "local": {
+    "all": 0.5177488137824117,
+    "drifted": 1.015026945024844,
+    "stable_vars": 0.36522574897762516
+   },
+   "static_bg": {
+    "all": 0.5152034389710732,
+    "drifted": 1.009873300033385,
+    "stable_vars": 0.3631756431350321
+   },
+   "posterior_val": {
+    "all": 0.5152034389710732,
+    "drifted": 1.009873300033385,
+    "stable_vars": 0.3631756431350321
+   },
+   "posterior_fixed": {
+    "all": 0.5151314909801133,
+    "drifted": 1.009486317437913,
+    "stable_vars": 0.3631699923017351
+   },
+   "hard_val": {
+    "all": 0.516647825063186,
+    "drifted": 1.0095381476320349,
+    "stable_vars": 0.3650740764732931
+   },
+   "oracle_regime": {
+    "all": 0.5151345635764492,
+    "drifted": 1.0094813448642002,
+    "stable_vars": 0.3631756431350321
+   },
+   "auc_D2": 0.9980200812470933,
+   "c_val": null,
+   "mean_w_bg": 0.23707167141215754,
+   "theorem_gain_regime_vs_static_opt": 1.7615362075646005e-05
+  },
+  "tau=0.0 rho=0.3 drift=level timing=valtest": {
+   "global": {
+    "all": 0.48724405458944403,
+    "drifted": 0.7965876849693326,
+    "stable_vars": 0.362907064518597
+   },
+   "local": {
+    "all": 0.49016877751319027,
+    "drifted": 0.8015702785960368,
+    "stable_vars": 0.36522574897762516
+   },
+   "static_bg": {
+    "all": 0.4876002253165879,
+    "drifted": 0.7971468639703359,
+    "stable_vars": 0.3631756431350321
+   },
+   "posterior_val": {
+    "all": 0.4876002253165879,
+    "drifted": 0.7971468639703359,
+    "stable_vars": 0.3631756431350321
+   },
+   "posterior_fixed": {
+    "all": 0.4874516236846205,
+    "drifted": 0.796583033655517,
+    "stable_vars": 0.3631699923017351
+   },
+   "hard_val": {
+    "all": 0.4888196610482174,
+    "drifted": 0.7965885189869607,
+    "stable_vars": 0.365094783567057
+   },
+   "oracle_regime": {
+    "all": 0.4874568235390409,
+    "drifted": 0.7965876849693326,
+    "stable_vars": 0.3631756431350321
+   },
+   "auc_D2": 0.999387247970127,
+   "c_val": null,
+   "mean_w_bg": 0.2537938767714637,
+   "theorem_gain_regime_vs_static_opt": 8.275929305636896e-06
+  },
+  "tau=0.0 rho=0.3 drift=profile timing=test": {
+   "global": {
+    "all": 0.3624127610658361,
+    "drifted": 0.3576428113448947,
+    "stable_vars": 0.362907064518597
+   },
+   "local": {
+    "all": 0.36470330279222934,
+    "drifted": 0.3600933127167289,
+    "stable_vars": 0.36522574897762516
+   },
+   "static_bg": {
+    "all": 0.36266917039331986,
+    "drifted": 0.35783652271013544,
+    "stable_vars": 0.3631756431350321
+   },
+   "posterior_val": {
+    "all": 0.36266917039331986,
+    "drifted": 0.35783652271013544,
+    "stable_vars": 0.3631756431350321
+   },
+   "posterior_fixed": {
+    "all": 0.3626648512747917,
+    "drifted": 0.3578355453150966,
+    "stable_vars": 0.3631699923017351
+   },
+   "hard_val": {
+    "all": 0.3645300911171437,
+    "drifted": 0.35990345604802115,
+    "stable_vars": 0.3650740764732931
+   },
+   "oracle_regime": {
+    "all": 0.3626370336517016,
+    "drifted": 0.3576428113448947,
+    "stable_vars": 0.3631756431350321
+   },
+   "auc_D2": 0.4829909578529508,
+   "c_val": null,
+   "mean_w_bg": 0.23707167141215754,
+   "theorem_gain_regime_vs_static_opt": 5.621542726391291e-06
+  },
+  "tau=0.0 rho=0.3 drift=profile timing=valtest": {
+   "global": {
+    "all": 0.3624127610658361,
+    "drifted": 0.3616268006649898,
+    "stable_vars": 0.362907064518597
+   },
+   "local": {
+    "all": 0.36470330279222934,
+    "drifted": 0.3637694163523087,
+    "stable_vars": 0.36522574897762516
+   },
+   "static_bg": {
+    "all": 0.36266917039331986,
+    "drifted": 0.3618479256078668,
+    "stable_vars": 0.3631756431350321
+   },
+   "posterior_val": {
+    "all": 0.36266917039331986,
+    "drifted": 0.3618479256078668,
+    "stable_vars": 0.3631756431350321
+   },
+   "posterior_fixed": {
+    "all": 0.3626648512747917,
+    "drifted": 0.36184659402869074,
+    "stable_vars": 0.3631699923017351
+   },
+   "hard_val": {
+    "all": 0.3645300911171437,
+    "drifted": 0.36360305643912305,
+    "stable_vars": 0.3650740764732931
+   },
+   "oracle_regime": {
+    "all": 0.36261409464822797,
+    "drifted": 0.3616268006649898,
+    "stable_vars": 0.3631756431350321
+   },
+   "auc_D2": 0.48774761322828103,
+   "c_val": null,
+   "mean_w_bg": 0.23707167141215754,
+   "theorem_gain_regime_vs_static_opt": 5.135834021467906e-06
+  },
+  "tau=1.0 rho=0.0 drift=level timing=test": {
+   "global": {
+    "all": 0.24265942773566554,
+    "drifted": null,
+    "stable_vars": 0.24265942773566554
+   },
+   "local": {
+    "all": 0.24051817725453484,
+    "drifted": null,
+    "stable_vars": 0.24051817725453484
+   },
+   "static_bg": {
+    "all": 0.24019458120676163,
+    "drifted": null,
+    "stable_vars": 0.24019458120676163
+   },
+   "posterior_val": {
+    "all": 0.24019458120676163,
+    "drifted": null,
+    "stable_vars": 0.24019458120676163
+   },
+   "posterior_fixed": {
+    "all": 0.2402154377666005,
+    "drifted": null,
+    "stable_vars": 0.2402154377666005
+   },
+   "hard_val": {
+    "all": 0.24051817725453484,
+    "drifted": null,
+    "stable_vars": 0.24051817725453484
+   },
+   "oracle_regime": {
+    "all": 0.24019458120676163,
+    "drifted": null,
+    "stable_vars": 0.24019458120676163
+   },
+   "auc_D2": null,
+   "c_val": null,
+   "mean_w_bg": 0.6986164961101942,
+   "theorem_gain_regime_vs_static_opt": 0.0
+  },
+  "tau=1.0 rho=0.1 drift=level timing=test": {
+   "global": {
+    "all": 0.2693337483857189,
+    "drifted": 0.6348154589240462,
+    "stable_vars": 0.23748683913059185
+   },
+   "local": {
+    "all": 0.26785377843383706,
+    "drifted": 0.6454776082384452,
+    "stable_vars": 0.23527164895509056
+   },
+   "static_bg": {
+    "all": 0.2673192900433323,
+    "drifted": 0.6407953832895816,
+    "stable_vars": 0.23496537426664363
+   },
+   "posterior_val": {
+    "all": 0.2673192900433323,
+    "drifted": 0.6407953832895816,
+    "stable_vars": 0.23496537426664363
+   },
+   "posterior_fixed": {
+    "all": 0.2670659701963294,
+    "drifted": 0.6349823375339878,
+    "stable_vars": 0.23498794084210994
+   },
+   "hard_val": {
+    "all": 0.26785377843383706,
+    "drifted": 0.6454776082384452,
+    "stable_vars": 0.23527164895509056
+   },
+   "oracle_regime": {
+    "all": 0.2670379866625657,
+    "drifted": 0.6348154589240462,
+    "stable_vars": 0.23496537426664363
+   },
+   "auc_D2": 0.9969919819792903,
+   "c_val": null,
+   "mean_w_bg": 0.6986164961101942,
+   "theorem_gain_regime_vs_static_opt": 0.00029575863176984106
+  },
+  "tau=1.0 rho=0.1 drift=level timing=valtest": {
+   "global": {
+    "all": 0.26798421841748354,
+    "drifted": 0.5438818492378105,
+    "stable_vars": 0.23748683913059185
+   },
+   "local": {
+    "all": 0.2665479792639098,
+    "drifted": 0.5510309315666274,
+    "stable_vars": 0.23527164895509056
+   },
+   "static_bg": {
+    "all": 0.2658409293806831,
+    "drifted": 0.5453018284521803,
+    "stable_vars": 0.23496537426664363
+   },
+   "posterior_val": {
+    "all": 0.2658409293806831,
+    "drifted": 0.5453018284521803,
+    "stable_vars": 0.23496537426664363
+   },
+   "posterior_fixed": {
+    "all": 0.2657776704551344,
+    "drifted": 0.5440448562796548,
+    "stable_vars": 0.23498794084210994
+   },
+   "hard_val": {
+    "all": 0.26612448758365786,
+    "drifted": 0.5449255995608574,
+    "stable_vars": 0.23526774341830525
+   },
+   "oracle_regime": {
+    "all": 0.2657463235505589,
+    "drifted": 0.5438818492378105,
+    "stable_vars": 0.23496537426664363
+   },
+   "auc_D2": 0.9982518842757732,
+   "c_val": null,
+   "mean_w_bg": 0.6850296502968168,
+   "theorem_gain_regime_vs_static_opt": 0.00023266120974006378
+  },
+  "tau=1.0 rho=0.1 drift=profile timing=test": {
+   "global": {
+    "all": 0.24674411063091317,
+    "drifted": 0.34252131208401,
+    "stable_vars": 0.23748683913059185
+   },
+   "local": {
+    "all": 0.24537352823399716,
+    "drifted": 0.35294323610345674,
+    "stable_vars": 0.23527164895509056
+   },
+   "static_bg": {
+    "all": 0.2447612924386274,
+    "drifted": 0.34805579596460623,
+    "stable_vars": 0.23496537426664363
+   },
+   "posterior_val": {
+    "all": 0.2447612924386274,
+    "drifted": 0.34805579596460623,
+    "stable_vars": 0.23496537426664363
+   },
+   "posterior_fixed": {
+    "all": 0.24470918771895223,
+    "drifted": 0.3467809917183526,
+    "stable_vars": 0.23498794084210994
+   },
+   "hard_val": {
+    "all": 0.24537352823399716,
+    "drifted": 0.35294323610345674,
+    "stable_vars": 0.23527164895509056
+   },
+   "oracle_regime": {
+    "all": 0.24442581636966412,
+    "drifted": 0.34252131208401,
+    "stable_vars": 0.23496537426664363
+   },
+   "auc_D2": 0.7533168241636815,
+   "c_val": null,
+   "mean_w_bg": 0.6986164961101942,
+   "theorem_gain_regime_vs_static_opt": 0.0003981512803467537
+  },
+  "tau=1.0 rho=0.1 drift=profile timing=valtest": {
+   "global": {
+    "all": 0.24494186172867502,
+    "drifted": 0.3188151158948822,
+    "stable_vars": 0.23748683913059185
+   },
+   "local": {
+    "all": 0.243572473460264,
+    "drifted": 0.32742426301625704,
+    "stable_vars": 0.23527164895509056
+   },
+   "static_bg": {
+    "all": 0.2427656955440162,
+    "drifted": 0.3205667923944344,
+    "stable_vars": 0.23496537426664363
+   },
+   "posterior_val": {
+    "all": 0.2427656955440162,
+    "drifted": 0.3205667923944344,
+    "stable_vars": 0.23496537426664363
+   },
+   "posterior_fixed": {
+    "all": 0.24269289472626288,
+    "drifted": 0.3193293692969781,
+    "stable_vars": 0.23498794084210994
+   },
+   "hard_val": {
+    "all": 0.24351454869040431,
+    "drifted": 0.3266369511339656,
+    "stable_vars": 0.23526895292813318
+   },
+   "oracle_regime": {
+    "all": 0.24263247197770846,
+    "drifted": 0.3188151158948822,
+    "stable_vars": 0.23496537426664363
+   },
+   "auc_D2": 0.7506936099337614,
+   "c_val": null,
+   "mean_w_bg": 0.6649794774606353,
+   "theorem_gain_regime_vs_static_opt": 0.00035567706319514014
+  },
+  "tau=1.0 rho=0.3 drift=level timing=test": {
+   "global": {
+    "all": 0.36756140027745077,
+    "drifted": 0.7847233400089156,
+    "stable_vars": 0.24044476238001064
+   },
+   "local": {
+    "all": 0.3689600525223044,
+    "drifted": 0.8010168404057153,
+    "stable_vars": 0.23817553128659777
+   },
+   "static_bg": {
+    "all": 0.3670443042080598,
+    "drifted": 0.792078646594473,
+    "stable_vars": 0.23788916783505987
+   },
+   "posterior_val": {
+    "all": 0.3670443042080598,
+    "drifted": 0.792078646594473,
+    "stable_vars": 0.23788916783505987
+   },
+   "posterior_fixed": {
+    "all": 0.36580688917021553,
+    "drifted": 0.7850879280854048,
+    "stable_vars": 0.23790859177639076
+   },
+   "hard_val": {
+    "all": 0.3689600525223044,
+    "drifted": 0.8010168404057153,
+    "stable_vars": 0.23817553128659777
+   },
+   "oracle_regime": {
+    "all": 0.36572650802509216,
+    "drifted": 0.7847233400089156,
+    "stable_vars": 0.23788916783505987
+   },
+   "auc_D2": 0.9976475451251202,
+   "c_val": null,
+   "mean_w_bg": 0.6986164961101942,
+   "theorem_gain_regime_vs_static_opt": 0.0011152044341900273
+  },
+  "tau=1.0 rho=0.3 drift=level timing=valtest": {
+   "global": {
+    "all": 0.3417059205031083,
+    "drifted": 0.602947067921369,
+    "stable_vars": 0.24044476238001064
+   },
+   "local": {
+    "all": 0.3435594632357188,
+    "drifted": 0.6166188230571158,
+    "stable_vars": 0.23817553128659777
+   },
+   "static_bg": {
+    "all": 0.3402403503652998,
+    "drifted": 0.6043664216385922,
+    "stable_vars": 0.23788916783505987
+   },
+   "posterior_val": {
+    "all": 0.3401879692663003,
+    "drifted": 0.6041450961031948,
+    "stable_vars": 0.2378966944453954
+   },
+   "posterior_fixed": {
+    "all": 0.3399462199670779,
+    "drifted": 0.6031362158767228,
+    "stable_vars": 0.23790859177639076
+   },
+   "hard_val": {
+    "all": 0.3407559082448248,
+    "drifted": 0.6050727323163275,
+    "stable_vars": 0.23827309634483362
+   },
+   "oracle_regime": {
+    "all": 0.3398918976924432,
+    "drifted": 0.602947067921369,
+    "stable_vars": 0.23788916783505987
+   },
+   "auc_D2": 0.9992355009964768,
+   "c_val": 13.82,
+   "mean_w_bg": 0.6245612095696277,
+   "theorem_gain_regime_vs_static_opt": 0.0011672941309273676
+  },
+  "tau=1.0 rho=0.3 drift=profile timing=test": {
+   "global": {
+    "all": 0.2534723499784274,
+    "drifted": 0.27724904923091653,
+    "stable_vars": 0.24044476238001064
+   },
+   "local": {
+    "all": 0.25327922705816774,
+    "drifted": 0.2859746845400024,
+    "stable_vars": 0.23817553128659777
+   },
+   "static_bg": {
+    "all": 0.252380513946627,
+    "drifted": 0.28229905600334776,
+    "stable_vars": 0.23788916783505987
+   },
+   "posterior_val": {
+    "all": 0.252380513946627,
+    "drifted": 0.28229905600334776,
+    "stable_vars": 0.23788916783505987
+   },
+   "posterior_fixed": {
+    "all": 0.25228861034242095,
+    "drifted": 0.28157195240838234,
+    "stable_vars": 0.23790859177639076
+   },
+   "hard_val": {
+    "all": 0.25327922705816774,
+    "drifted": 0.2859746845400024,
+    "stable_vars": 0.23817553128659777
+   },
+   "oracle_regime": {
+    "all": 0.25159067248530675,
+    "drifted": 0.27724904923091653,
+    "stable_vars": 0.23788916783505987
+   },
+   "auc_D2": 0.7806767033208399,
+   "c_val": null,
+   "mean_w_bg": 0.6986164961101942,
+   "theorem_gain_regime_vs_static_opt": 0.0006378882723432736
+  },
+  "tau=1.0 rho=0.3 drift=profile timing=valtest": {
+   "global": {
+    "all": 0.24896625772001904,
+    "drifted": 0.2607386522467488,
+    "stable_vars": 0.24044476238001064
+   },
+   "local": {
+    "all": 0.24884118819432718,
+    "drifted": 0.2669370155154798,
+    "stable_vars": 0.23817553128659777
+   },
+   "static_bg": {
+    "all": 0.2474512796826479,
+    "drifted": 0.26208867197136004,
+    "stable_vars": 0.23788916783505987
+   },
+   "posterior_val": {
+    "all": 0.2474512796826479,
+    "drifted": 0.26208867197136004,
+    "stable_vars": 0.23788916783505987
+   },
+   "posterior_fixed": {
+    "all": 0.2475140214798152,
+    "drifted": 0.2622700180464708,
+    "stable_vars": 0.23790859177639076
+   },
+   "hard_val": {
+    "all": 0.24852454790373554,
+    "drifted": 0.2653454675256513,
+    "stable_vars": 0.23826517678408746
+   },
+   "oracle_regime": {
+    "all": 0.24714092193163617,
+    "drifted": 0.2607386522467488,
+    "stable_vars": 0.23788916783505987
+   },
+   "auc_D2": 0.7852952466346261,
+   "c_val": null,
+   "mean_w_bg": 0.6237506356301336,
+   "theorem_gain_regime_vs_static_opt": 0.0005306342298305867
+  }
+ },
+ "A_weekly": {
+  "weekly=0.0 rho=0.0 timing=test": {
+   "global": {
+    "all": 0.24265942773566554,
+    "drifted": null,
+    "stable_vars": 0.24265942773566554
+   },
+   "local": {
+    "all": 0.24051817725453484,
+    "drifted": null,
+    "stable_vars": 0.24051817725453484
+   },
+   "static_bg": {
+    "all": 0.24019458120676163,
+    "drifted": null,
+    "stable_vars": 0.24019458120676163
+   },
+   "posterior_val": {
+    "all": 0.24019458120676163,
+    "drifted": null,
+    "stable_vars": 0.24019458120676163
+   },
+   "posterior_fixed": {
+    "all": 0.2402154377666005,
+    "drifted": null,
+    "stable_vars": 0.2402154377666005
+   },
+   "hard_val": {
+    "all": 0.24051817725453484,
+    "drifted": null,
+    "stable_vars": 0.24051817725453484
+   },
+   "oracle_regime": {
+    "all": 0.24019458120676163,
+    "drifted": null,
+    "stable_vars": 0.24019458120676163
+   },
+   "auc_D2": null,
+   "c_val": null,
+   "mean_w_bg": 0.6986164961101942,
+   "theorem_gain_regime_vs_static_opt": 0.0
+  },
+  "weekly=0.0 rho=0.1 timing=test": {
+   "global": {
+    "all": 0.2693337483857189,
+    "drifted": 0.6348154589240462,
+    "stable_vars": 0.23748683913059185
+   },
+   "local": {
+    "all": 0.26785377843383706,
+    "drifted": 0.6454776082384452,
+    "stable_vars": 0.23527164895509056
+   },
+   "static_bg": {
+    "all": 0.2673192900433323,
+    "drifted": 0.6407953832895816,
+    "stable_vars": 0.23496537426664363
+   },
+   "posterior_val": {
+    "all": 0.2673192900433323,
+    "drifted": 0.6407953832895816,
+    "stable_vars": 0.23496537426664363
+   },
+   "posterior_fixed": {
+    "all": 0.2670659701963294,
+    "drifted": 0.6349823375339878,
+    "stable_vars": 0.23498794084210994
+   },
+   "hard_val": {
+    "all": 0.26785377843383706,
+    "drifted": 0.6454776082384452,
+    "stable_vars": 0.23527164895509056
+   },
+   "oracle_regime": {
+    "all": 0.2670379866625657,
+    "drifted": 0.6348154589240462,
+    "stable_vars": 0.23496537426664363
+   },
+   "auc_D2": 0.9969919819792903,
+   "c_val": null,
+   "mean_w_bg": 0.6986164961101942,
+   "theorem_gain_regime_vs_static_opt": 0.00029575863176984106
+  },
+  "weekly=0.0 rho=0.1 timing=valtest": {
+   "global": {
+    "all": 0.26798421841748354,
+    "drifted": 0.5438818492378105,
+    "stable_vars": 0.23748683913059185
+   },
+   "local": {
+    "all": 0.2665479792639098,
+    "drifted": 0.5510309315666274,
+    "stable_vars": 0.23527164895509056
+   },
+   "static_bg": {
+    "all": 0.2658409293806831,
+    "drifted": 0.5453018284521803,
+    "stable_vars": 0.23496537426664363
+   },
+   "posterior_val": {
+    "all": 0.2658409293806831,
+    "drifted": 0.5453018284521803,
+    "stable_vars": 0.23496537426664363
+   },
+   "posterior_fixed": {
+    "all": 0.2657776704551344,
+    "drifted": 0.5440448562796548,
+    "stable_vars": 0.23498794084210994
+   },
+   "hard_val": {
+    "all": 0.26612448758365786,
+    "drifted": 0.5449255995608574,
+    "stable_vars": 0.23526774341830525
+   },
+   "oracle_regime": {
+    "all": 0.2657463235505589,
+    "drifted": 0.5438818492378105,
+    "stable_vars": 0.23496537426664363
+   },
+   "auc_D2": 0.9982518842757732,
+   "c_val": null,
+   "mean_w_bg": 0.6850296502968168,
+   "theorem_gain_regime_vs_static_opt": 0.00023266120974006378
+  },
+  "weekly=0.0 rho=0.3 timing=test": {
+   "global": {
+    "all": 0.36756140027745077,
+    "drifted": 0.7847233400089156,
+    "stable_vars": 0.24044476238001064
+   },
+   "local": {
+    "all": 0.3689600525223044,
+    "drifted": 0.8010168404057153,
+    "stable_vars": 0.23817553128659777
+   },
+   "static_bg": {
+    "all": 0.3670443042080598,
+    "drifted": 0.792078646594473,
+    "stable_vars": 0.23788916783505987
+   },
+   "posterior_val": {
+    "all": 0.3670443042080598,
+    "drifted": 0.792078646594473,
+    "stable_vars": 0.23788916783505987
+   },
+   "posterior_fixed": {
+    "all": 0.36580688917021553,
+    "drifted": 0.7850879280854048,
+    "stable_vars": 0.23790859177639076
+   },
+   "hard_val": {
+    "all": 0.3689600525223044,
+    "drifted": 0.8010168404057153,
+    "stable_vars": 0.23817553128659777
+   },
+   "oracle_regime": {
+    "all": 0.36572650802509216,
+    "drifted": 0.7847233400089156,
+    "stable_vars": 0.23788916783505987
+   },
+   "auc_D2": 0.9976475451251202,
+   "c_val": null,
+   "mean_w_bg": 0.6986164961101942,
+   "theorem_gain_regime_vs_static_opt": 0.0011152044341900273
+  },
+  "weekly=0.0 rho=0.3 timing=valtest": {
+   "global": {
+    "all": 0.3417059205031083,
+    "drifted": 0.602947067921369,
+    "stable_vars": 0.24044476238001064
+   },
+   "local": {
+    "all": 0.3435594632357188,
+    "drifted": 0.6166188230571158,
+    "stable_vars": 0.23817553128659777
+   },
+   "static_bg": {
+    "all": 0.3402403503652998,
+    "drifted": 0.6043664216385922,
+    "stable_vars": 0.23788916783505987
+   },
+   "posterior_val": {
+    "all": 0.3401879692663003,
+    "drifted": 0.6041450961031948,
+    "stable_vars": 0.2378966944453954
+   },
+   "posterior_fixed": {
+    "all": 0.3399462199670779,
+    "drifted": 0.6031362158767228,
+    "stable_vars": 0.23790859177639076
+   },
+   "hard_val": {
+    "all": 0.3407559082448248,
+    "drifted": 0.6050727323163275,
+    "stable_vars": 0.23827309634483362
+   },
+   "oracle_regime": {
+    "all": 0.3398918976924432,
+    "drifted": 0.602947067921369,
+    "stable_vars": 0.23788916783505987
+   },
+   "auc_D2": 0.9992355009964768,
+   "c_val": 13.82,
+   "mean_w_bg": 0.6245612095696277,
+   "theorem_gain_regime_vs_static_opt": 0.0011672941309273676
+  },
+  "weekly=1.0 rho=0.0 timing=test": {
+   "global": {
+    "all": 0.4134535634773948,
+    "drifted": null,
+    "stable_vars": 0.4134535634773948
+   },
+   "local": {
+    "all": 0.2254855372591585,
+    "drifted": null,
+    "stable_vars": 0.2254855372591585
+   },
+   "static_bg": {
+    "all": 0.22552014195527903,
+    "drifted": null,
+    "stable_vars": 0.22552014195527903
+   },
+   "posterior_val": {
+    "all": 0.22552014195527903,
+    "drifted": null,
+    "stable_vars": 0.22552014195527903
+   },
+   "posterior_fixed": {
+    "all": 0.22602521291533473,
+    "drifted": null,
+    "stable_vars": 0.22602521291533473
+   },
+   "hard_val": {
+    "all": 0.2254855372591585,
+    "drifted": null,
+    "stable_vars": 0.2254855372591585
+   },
+   "oracle_regime": {
+    "all": 0.22552014195527903,
+    "drifted": null,
+    "stable_vars": 0.22552014195527903
+   },
+   "auc_D2": null,
+   "c_val": null,
+   "mean_w_bg": 0.9950468826361224,
+   "theorem_gain_regime_vs_static_opt": 0.0
+  },
+  "weekly=1.0 rho=0.1 timing=test": {
+   "global": {
+    "all": 0.45806491954620254,
+    "drifted": 1.141980078052601,
+    "stable_vars": 0.40903108633446
+   },
+   "local": {
+    "all": 0.29789725123634153,
+    "drifted": 1.5571119036485284,
+    "stable_vars": 0.22114283877756138
+   },
+   "static_bg": {
+    "all": 0.2970548084389046,
+    "drifted": 1.5347253754332357,
+    "stable_vars": 0.22120703371346606
+   },
+   "posterior_val": {
+    "all": 0.2970548084389046,
+    "drifted": 1.5347253754332357,
+    "stable_vars": 0.22120703371346606
+   },
+   "posterior_fixed": {
+    "all": 0.28019880733576136,
+    "drifted": 1.1507874212486442,
+    "stable_vars": 0.22169923075802397
+   },
+   "hard_val": {
+    "all": 0.29789725123634153,
+    "drifted": 1.5571119036485284,
+    "stable_vars": 0.22114283877756138
+   },
+   "oracle_regime": {
+    "all": 0.27935775156934856,
+    "drifted": 1.141980078052601,
+    "stable_vars": 0.22120703371346606
+   },
+   "auc_D2": 0.9905611828305454,
+   "c_val": null,
+   "mean_w_bg": 0.9950468826361224,
+   "theorem_gain_regime_vs_static_opt": 0.024584165605554823
+  },
+  "weekly=1.0 rho=0.1 timing=valtest": {
+   "global": {
+    "all": 0.46776747665207846,
+    "drifted": 1.153555644119751,
+    "stable_vars": 0.40903108633446
+   },
+   "local": {
+    "all": 0.31972218950871323,
+    "drifted": 1.537407031101968,
+    "stable_vars": 0.22114283877756138
+   },
+   "static_bg": {
+    "all": 0.31475667641092425,
+    "drifted": 1.4654310562430657,
+    "stable_vars": 0.22120703371346606
+   },
+   "posterior_val": {
+    "all": 0.31110888363063327,
+    "drifted": 1.4123400073554473,
+    "stable_vars": 0.22133071078484848
+   },
+   "posterior_fixed": {
+    "all": 0.29448831548692045,
+    "drifted": 1.1590853298621864,
+    "stable_vars": 0.22169923075802397
+   },
+   "hard_val": {
+    "all": 0.2985684231969094,
+    "drifted": 1.2179176900954107,
+    "stable_vars": 0.22148025058777177
+   },
+   "oracle_regime": {
+    "all": 0.29364032254608813,
+    "drifted": 1.153555644119751,
+    "stable_vars": 0.22120703371346606
+   },
+   "auc_D2": 0.9942219273736619,
+   "c_val": 13.82,
+   "mean_w_bg": 0.9839495030526488,
+   "theorem_gain_regime_vs_static_opt": 0.032874683149668245
+  },
+  "weekly=1.0 rho=0.3 timing=test": {
+   "global": {
+    "all": 0.5707007832766907,
+    "drifted": 1.1795902937189708,
+    "stable_vars": 0.4109476592962615
+   },
+   "local": {
+    "all": 0.5323102659192294,
+    "drifted": 1.820924107641854,
+    "stable_vars": 0.22430835473606767
+   },
+   "static_bg": {
+    "all": 0.5322680851538073,
+    "drifted": 1.8203732396731622,
+    "stable_vars": 0.22437507318298064
+   },
+   "posterior_val": {
+    "all": 0.5322680851538073,
+    "drifted": 1.8203732396731622,
+    "stable_vars": 0.22437507318298064
+   },
+   "posterior_fixed": {
+    "all": 0.4207717706867728,
+    "drifted": 1.1906902916248654,
+    "stable_vars": 0.22488666978157754
+   },
+   "hard_val": {
+    "all": 0.5323102659192294,
+    "drifted": 1.820924107641854,
+    "stable_vars": 0.22430835473606767
+   },
+   "oracle_regime": {
+    "all": 0.4184074674373759,
+    "drifted": 1.1795902937189708,
+    "stable_vars": 0.22437507318298064
+   },
+   "auc_D2": 0.9914444579577796,
+   "c_val": null,
+   "mean_w_bg": 0.9950468826361224,
+   "theorem_gain_regime_vs_static_opt": 0.08261952966550104
+  },
+  "weekly=1.0 rho=0.3 timing=valtest": {
+   "global": {
+    "all": 0.5718804659545308,
+    "drifted": 1.0258283738968028,
+    "stable_vars": 0.4109476592962615
+   },
+   "local": {
+    "all": 0.5915830129375462,
+    "drifted": 1.6643493530051445,
+    "stable_vars": 0.22430835473606767
+   },
+   "static_bg": {
+    "all": 0.46854402057592875,
+    "drifted": 1.1701891962310604,
+    "stable_vars": 0.22437507318298064
+   },
+   "posterior_val": {
+    "all": 0.46854402057592875,
+    "drifted": 1.1701891962310604,
+    "stable_vars": 0.22437507318298064
+   },
+   "posterior_fixed": {
+    "all": 0.43495904752024367,
+    "drifted": 1.0327008769555277,
+    "stable_vars": 0.22488666978157754
+   },
+   "hard_val": {
+    "all": 0.43628117500534763,
+    "drifted": 1.0328237999552414,
+    "stable_vars": 0.22640742880015666
+   },
+   "oracle_regime": {
+    "all": 0.43286240637133594,
+    "drifted": 1.0258283738968028,
+    "stable_vars": 0.22437507318298064
+   },
+   "auc_D2": 0.9973374695629187,
+   "c_val": null,
+   "mean_w_bg": 0.9252512615538374,
+   "theorem_gain_regime_vs_static_opt": 0.09567679991085108
+  },
+  "weekly=2.0 rho=0.0 timing=test": {
+   "global": {
+    "all": 0.4543610877760391,
+    "drifted": null,
+    "stable_vars": 0.4543610877760391
+   },
+   "local": {
+    "all": 0.18866874060663863,
+    "drifted": null,
+    "stable_vars": 0.18866874060663863
+   },
+   "static_bg": {
+    "all": 0.18866742780640441,
+    "drifted": null,
+    "stable_vars": 0.18866742780640441
+   },
+   "posterior_val": {
+    "all": 0.18866742780640441,
+    "drifted": null,
+    "stable_vars": 0.18866742780640441
+   },
+   "posterior_fixed": {
+    "all": 0.18921218809584298,
+    "drifted": null,
+    "stable_vars": 0.18921218809584298
+   },
+   "hard_val": {
+    "all": 0.18866874060663863,
+    "drifted": null,
+    "stable_vars": 0.18866874060663863
+   },
+   "oracle_regime": {
+    "all": 0.18866742780640441,
+    "drifted": null,
+    "stable_vars": 0.18866742780640441
+   },
+   "auc_D2": null,
+   "c_val": null,
+   "mean_w_bg": 0.9996377419941115,
+   "theorem_gain_regime_vs_static_opt": 0.0
+  },
+  "weekly=2.0 rho=0.1 timing=test": {
+   "global": {
+    "all": 0.521415463169847,
+    "drifted": 1.6413521356730005,
+    "stable_vars": 0.4505768911479413
+   },
+   "local": {
+    "all": 0.3041734208646453,
+    "drifted": 2.4527975686997583,
+    "stable_vars": 0.1856174817129973
+   },
+   "static_bg": {
+    "all": 0.3041721080644111,
+    "drifted": 2.4527975686997583,
+    "stable_vars": 0.1856160230460704
+   },
+   "posterior_val": {
+    "all": 0.3041721080644111,
+    "drifted": 2.4527975686997583,
+    "stable_vars": 0.1856160230460704
+   },
+   "posterior_fixed": {
+    "all": 0.27420870523231033,
+    "drifted": 1.7462684539600073,
+    "stable_vars": 0.1861495374021672
+   },
+   "hard_val": {
+    "all": 0.3041734208646453,
+    "drifted": 2.4527975686997583,
+    "stable_vars": 0.1856174817129973
+   },
+   "oracle_regime": {
+    "all": 0.268936103494239,
+    "drifted": 1.6413521356730005,
+    "stable_vars": 0.1856160230460704
+   },
+   "auc_D2": 0.9679853272652187,
+   "c_val": null,
+   "mean_w_bg": 0.9996377419941115,
+   "theorem_gain_regime_vs_static_opt": 0.04639093312012913
+  },
+  "weekly=2.0 rho=0.1 timing=valtest": {
+   "global": {
+    "all": 0.543650879690399,
+    "drifted": 1.6906792524993224,
+    "stable_vars": 0.4505768911479413
+   },
+   "local": {
+    "all": 0.35275592418224533,
+    "drifted": 2.4803879805543896,
+    "stable_vars": 0.1856174817129973
+   },
+   "static_bg": {
+    "all": 0.3480273612075604,
+    "drifted": 2.4114220495924865,
+    "stable_vars": 0.1856160230460704
+   },
+   "posterior_val": {
+    "all": 0.3480273612075604,
+    "drifted": 2.4114220495924865,
+    "stable_vars": 0.1856160230460704
+   },
+   "posterior_fixed": {
+    "all": 0.3010781200875193,
+    "drifted": 1.7280758996826944,
+    "stable_vars": 0.1861495374021672
+   },
+   "hard_val": {
+    "all": 0.33295856984568156,
+    "drifted": 2.1811914832458648,
+    "stable_vars": 0.18612818835555203
+   },
+   "oracle_regime": {
+    "all": 0.2980897365823192,
+    "drifted": 1.6906792524993224,
+    "stable_vars": 0.1856160230460704
+   },
+   "auc_D2": 0.9760092818319807,
+   "c_val": null,
+   "mean_w_bg": 0.9885266308830004,
+   "theorem_gain_regime_vs_static_opt": 0.06577831937957364
+  },
+  "weekly=2.0 rho=0.3 timing=test": {
+   "global": {
+    "all": 0.6314540367640374,
+    "drifted": 1.3585830942212713,
+    "stable_vars": 0.45143787985742456
+   },
+   "local": {
+    "all": 0.5689390158666893,
+    "drifted": 2.216716885112365,
+    "stable_vars": 0.18825626518090263
+   },
+   "static_bg": {
+    "all": 0.5689377030664551,
+    "drifted": 2.216716885112365,
+    "stable_vars": 0.18825438975199657
+   },
+   "posterior_val": {
+    "all": 0.5689377030664551,
+    "drifted": 2.216716885112365,
+    "stable_vars": 0.18825438975199657
+   },
+   "posterior_fixed": {
+    "all": 0.4369009358169824,
+    "drifted": 1.4736430020431432,
+    "stable_vars": 0.18880391547161254
+   },
+   "hard_val": {
+    "all": 0.5689390158666893,
+    "drifted": 2.216716885112365,
+    "stable_vars": 0.18825626518090263
+   },
+   "oracle_regime": {
+    "all": 0.4163274035152615,
+    "drifted": 1.3585830942212713,
+    "stable_vars": 0.18825438975199657
+   },
+   "auc_D2": 0.968595986637912,
+   "c_val": null,
+   "mean_w_bg": 0.9996377419941115,
+   "theorem_gain_regime_vs_static_opt": 0.11485532615400985
+  },
+  "weekly=2.0 rho=0.3 timing=valtest": {
+   "global": {
+    "all": 0.639210823292366,
+    "drifted": 1.1786449240641785,
+    "stable_vars": 0.45143787985742456
+   },
+   "local": {
+    "all": 0.6613590372422381,
+    "drifted": 2.061003824511297,
+    "stable_vars": 0.18825626518090263
+   },
+   "static_bg": {
+    "all": 0.5056691042587734,
+    "drifted": 1.434067539983465,
+    "stable_vars": 0.18825438975199657
+   },
+   "posterior_val": {
+    "all": 0.49985518835450354,
+    "drifted": 1.4112382644113677,
+    "stable_vars": 0.18842209435975119
+   },
+   "posterior_fixed": {
+    "all": 0.45936443771326846,
+    "drifted": 1.2448337209983393,
+    "stable_vars": 0.18880391547161254
+   },
+   "hard_val": {
+    "all": 0.5264399656941466,
+    "drifted": 1.498425407867775,
+    "stable_vars": 0.19224565238963828
+   },
+   "oracle_regime": {
+    "all": 0.44255428712981004,
+    "drifted": 1.1786449240641785,
+    "stable_vars": 0.18825438975199657
+   },
+   "auc_D2": 0.977076464407091,
+   "c_val": 13.82,
+   "mean_w_bg": 0.9278279792140394,
+   "theorem_gain_regime_vs_static_opt": 0.1335497848108187
+  }
+ }
+}

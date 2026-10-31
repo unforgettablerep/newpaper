@@ -1,0 +1,88 @@
+{
+ "B": {
+  "weekly=0.0 timing=valtest": {
+   "n_cal_high_D2": 4339.666666666667,
+   "marginal": {
+    "coverage_all": 0.885760553776829,
+    "coverage_drifted": 0.7734421748140844,
+    "coverage_stable_vars": 0.9106047916913712,
+    "width": 0.8284255072117565
+   },
+   "per_variable": {
+    "coverage_all": 0.8860906063480769,
+    "coverage_drifted": 0.8349000132197104,
+    "coverage_stable_vars": 0.8980613734732598,
+    "width": 0.8177042548558607
+   },
+   "mondrian_D2": {
+    "coverage_all": 0.9012821653029764,
+    "coverage_drifted": 0.8981190020947215,
+    "coverage_stable_vars": 0.9023173470295269,
+    "width": 0.9083399014657579
+   }
+  },
+  "weekly=0.0 timing=test": {
+   "n_cal_high_D2": 753.0,
+   "marginal": {
+    "coverage_all": 0.8771796810150598,
+    "coverage_drifted": 0.7385163153119647,
+    "coverage_stable_vars": 0.898839566287205,
+    "width": 0.7960338566194444
+   },
+   "per_variable": {
+    "coverage_all": 0.8750069172694573,
+    "coverage_drifted": 0.7317715641482959,
+    "coverage_stable_vars": 0.8980613734732598,
+    "width": 0.7825735123867288
+   },
+   "mondrian_D2": {
+    "coverage_all": 0.8831510138740661,
+    "coverage_drifted": 0.7837446219062754,
+    "coverage_stable_vars": 0.8991950027669078,
+    "width": 0.8160750365142454
+   }
+  },
+  "weekly=1.0 timing=valtest": {
+   "n_cal_high_D2": 3885.0,
+   "marginal": {
+    "coverage_all": 0.8754100952606824,
+    "coverage_drifted": 0.6998000044877508,
+    "coverage_stable_vars": 0.9139683139649789,
+    "width": 0.8126104973048399
+   },
+   "per_variable": {
+    "coverage_all": 0.8757164314795051,
+    "coverage_drifted": 0.7809522265564359,
+    "coverage_stable_vars": 0.8968758646586821,
+    "width": 0.8126521056100261
+   },
+   "mondrian_D2": {
+    "coverage_all": 0.8946858077394363,
+    "coverage_drifted": 0.8580616977755963,
+    "coverage_stable_vars": 0.9030742321830902,
+    "width": 0.9209590793783465
+   }
+  },
+  "weekly=1.0 timing=test": {
+   "n_cal_high_D2": 377.6666666666667,
+   "marginal": {
+    "coverage_all": 0.8685978200719395,
+    "coverage_drifted": 0.6762171520686818,
+    "coverage_stable_vars": 0.8982528336100241,
+    "width": 0.7711748397977937
+   },
+   "per_variable": {
+    "coverage_all": 0.8659791394916795,
+    "coverage_drifted": 0.6669831553314625,
+    "coverage_stable_vars": 0.8968758646586821,
+    "width": 0.7627189570899012
+   },
+   "mondrian_D2": {
+    "coverage_all": 0.8734092750701609,
+    "coverage_drifted": 0.7149888528705707,
+    "coverage_stable_vars": 0.8981524714415589,
+    "width": 0.7874983610692752
+   }
+  }
+ }
+}

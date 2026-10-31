@@ -9,3 +9,5 @@
 新研究方向的检索与建议见 [`new_directions.md`](new_directions.md)（2026-10-31）。
 
 第二轮发散检索（13 个方向的拥挤程度与候选组合）见 [`new_directions_2.md`](new_directions_2.md)（2026-10-31）。
+
+各候选方向的可行性推导与沙盒模拟见 [`theory_directions.md`](theory_directions.md)（模拟结果在 `results/sim/`）。

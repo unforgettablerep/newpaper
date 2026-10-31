@@ -1,0 +1,70 @@
+{
+ "A2": {
+  "rho=0.0": {
+   "channel_independent": {
+    "stable_vars": 0.4981811320323268,
+    "all": 0.4981811320323268
+   },
+   "cross_uniform": {
+    "stable_vars": 0.4481242885216832,
+    "all": 0.4481242885216832
+   },
+   "cross_reliability": {
+    "stable_vars": 0.4482168149039643,
+    "all": 0.4482168149039643
+   },
+   "cross_oracle": {
+    "stable_vars": 0.4481242885216832,
+    "all": 0.4481242885216832
+   },
+   "cross_reliability+self_gate": {
+    "stable_vars": 0.4487135562713072,
+    "all": 0.4487135562713072
+   }
+  },
+  "rho=0.1": {
+   "channel_independent": {
+    "stable_vars": 0.49515711545578184,
+    "all": 0.49911166213597163
+   },
+   "cross_uniform": {
+    "stable_vars": 0.44786253368524415,
+    "all": 0.46035334671412925
+   },
+   "cross_reliability": {
+    "stable_vars": 0.4461357799095918,
+    "all": 0.4594197584091231
+   },
+   "cross_oracle": {
+    "stable_vars": 0.44575630473044664,
+    "all": 0.4591689647528709
+   },
+   "cross_reliability+self_gate": {
+    "stable_vars": 0.44660110842518597,
+    "all": 0.4544114194827375
+   }
+  },
+  "rho=0.3": {
+   "channel_independent": {
+    "stable_vars": 0.49993536483443196,
+    "all": 0.5048533265325114
+   },
+   "cross_uniform": {
+    "stable_vars": 0.4551328939509274,
+    "all": 0.4805508429257097
+   },
+   "cross_reliability": {
+    "stable_vars": 0.4506741563193379,
+    "all": 0.48366650351552837
+   },
+   "cross_oracle": {
+    "stable_vars": 0.4501479842642804,
+    "all": 0.4844892973801101
+   },
+   "cross_reliability+self_gate": {
+    "stable_vars": 0.4511471465484685,
+    "all": 0.4688045446525133
+   }
+  }
+ }
+}
