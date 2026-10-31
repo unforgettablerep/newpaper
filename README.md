@@ -700,3 +700,43 @@ python tools/summarize.py $R/main.jsonl $R/idlr.jsonl $R/shuffle_main.jsonl $R/o
 ```
 
 之后：确定最终方案（iTransformer：身份 + 在验证集上选择的身份学习率和 dropout；S-Mamba：随机顺序 + 身份 + K=2，是否加 dropout 由这一轮决定），用种子 3、4 补到 5 个种子；PEMS 数据集；归纳式身份。
+
+---
+
+## 第四阶段：应用导向的组合模型（计划）
+
+身份嵌入的核心思路已有人发表（[`papers/related_work.md`](papers/related_work.md)），研究目标调整为：**以多节点电力负荷与交通流预测为应用，把针对这类数据特点的模块有依据地组合起来，提高预测精度**。方向检索见 [`papers/new_directions.md`](papers/new_directions.md)。
+
+### 组合的依据：每个模块对应数据的一个特点
+
+| 数据特点 | 模块 | 依据 |
+|---|---|---|
+| 变量（用户、传感器）之间差异大 | 变量身份嵌入（`add`） | 本研究：iTransformer 在 Electricity 上 −4.2% 至 −7.7%；CN 论文中 channel identifier 在 iTransformer 上平均 −9.8% |
+| 变量的尺度和动态不同 | 通道归一化（`--cn`，Lee 等，ICML 2025） | CN 论文：iTransformer ECL −10.1%，S-Mamba ECL −6.3% |
+| 强烈的日 / 周周期 | 残差周期（`--rcf-cycle auto`，CycleNet，NeurIPS 2024） | CycleNet 论文：加到 iTransformer 上，Electricity −5.6% 至 −13.8%；Traffic 上 MSE 约 +5%、MAE 略好，与身份嵌入在 Traffic 上的表现一样 |
+| 少数变量在测试期发生漂移 | 变量特有 dropout（`--vs-dropout`）+ 无标签漂移门控（`--drift-gate`） | 本研究：Traffic 上身份的损失集中在少数漂移传感器（实验 5）；先导分析中，只对漂移最大的 1% 变量关掉变量特有部分，Traffic-96 上 iTransformer 从 +1.5% 变为 −3.5%，S-Mamba 从 +0.7% 变为 −4.6% |
+| 变量之间没有天然顺序（S-Mamba） | 随机扫描顺序 + 测试时 2 个顺序平均 | 本研究：官方设置下 29 组平均 −1.05%，Electricity 96–336 步 −4.5% 至 −6.5%（实验 8、9） |
+
+身份、通道归一化、周期三者都是"每个变量专属"的参数，正好也是在漂移变量上会出问题的部分。所以漂移门控把这三者一起关掉，变量特有 dropout 也把它们一起关掉，让模型在关掉后仍能正常预测。
+
+### 实现（newpapercode `f6c5334`）
+
+- 通道归一化写成"共享的 LayerNorm 仿射 + 每个变量的偏移"，残差周期从 0 开始，所以初始化时与原模型完全一致；关掉一个变量的变量特有部分，就退回共享参数。
+- 漂移门控不使用测试集的真实值：对每个窗口、每个变量，用回看段的 |均值| + |log 标准差|（以训练统计量为单位）作为漂移分数；阈值取训练窗口分数的分位数 q ∈ {0.9, …, 0.999}，q（或不门控）在验证集上选择。
+- 默认设置下的计算与之前逐位相同，已有结果仍可直接对比。
+
+### 筛选实验：`bash scripts/run_combo.sh`
+
+- Electricity、Traffic（应用数据）和 Weather、ETTh1（通用检验）× 两种骨架 × 预测 96 步 × 3 个种子，官方超参数，共 168 次，按已有运行时间估计约 9 小时。
+- 每种骨架：基线；完整模型；完整模型分别去掉身份 / 通道归一化 / 周期 / 变量特有 dropout（S-Mamba 还有去掉随机扫描顺序）。"去掉漂移门控"直接用门控运行中未门控的结果，不需要另跑。
+- 学习率不超过 1e-4 的数据集（Weather、ETTh1）另跑完整模型 + 变量特有参数学习率 ×10（实验 7 表明身份在小学习率下学不充分）。
+- Traffic 记录逐变量误差。
+- 汇总：在代码仓库目录下运行 `python tools/summarize.py results/combo.jsonl`，结果放到本仓库的 `results/4090/`。
+
+### 之后
+
+1. 根据筛选结果确定每种骨架的完整模型，用 `HORIZONS="192 336 720"` 扩展到全部预测长度，最终表格用 5 个种子。
+2. 如能提供 PEMS03/04/07/08（`data/PEMS/*.npz`），加入交通流应用的数据集；CN 论文中通道归一化在 PEMS 上的收益最大（iTransformer −15% 至 −37%）。
+3. 对比方法：iTransformer、S-Mamba、CycleNet、CN / ACN、TQNet 等。
+
+第三阶段计划中的 `run_official.sh`（补 Traffic 上 S-Mamba 的 35 次）和 `run_recipe.sh` 降为可选：前者的结果会被筛选实验的基线覆盖，后者的候选方案已由组合模型取代。
