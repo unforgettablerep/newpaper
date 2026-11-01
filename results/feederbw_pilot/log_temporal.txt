@@ -1,0 +1,38 @@
+mode temporal | rows train/val/test 312559 29066 346967 | test feeders 40
+V0_global_no_registry        MAE 3.722  RMSE 5.842
+V1_feeder_id                 MAE 3.507  RMSE 5.490
+V2_registry_static           MAE 3.551  RMSE 5.531
+V3_registry_time_varying     MAE 3.516  RMSE 5.410
+V4_time_varying_plus_id      MAE 3.454  RMSE 5.332
+
+== sunny_midday (rows 33834)
+  V0_global_no_registry        MAE 6.038  RMSE 9.194
+  V1_feeder_id                 MAE 5.714  RMSE 8.620
+  V2_registry_static           MAE 5.939  RMSE 8.811
+  V3_registry_time_varying     MAE 5.487  RMSE 8.004
+  V4_time_varying_plus_id      MAE 5.345  RMSE 7.773
+
+== 0-30d_after_registered_change (rows 13453)
+  V0_global_no_registry        MAE 3.885  RMSE 6.158
+  V1_feeder_id                 MAE 3.776  RMSE 5.801
+  V2_registry_static           MAE 3.827  RMSE 5.872
+  V3_registry_time_varying     MAE 3.745  RMSE 5.690
+  V4_time_varying_plus_id      MAE 3.654  RMSE 5.587
+
+== 0-30d_after_PV>=10kW_sunny_midday (rows 607)
+  V0_global_no_registry        MAE 6.458  RMSE 8.442
+  V1_feeder_id                 MAE 6.924  RMSE 9.077
+  V2_registry_static           MAE 7.523  RMSE 9.868
+  V3_registry_time_varying     MAE 7.233  RMSE 9.482
+  V4_time_varying_plus_id      MAE 6.583  RMSE 8.750
+
+== no_change_in_last_90d (rows 306950)
+  V0_global_no_registry        MAE 3.689  RMSE 5.791
+  V1_feeder_id                 MAE 3.463  RMSE 5.439
+  V2_registry_static           MAE 3.506  RMSE 5.477
+  V3_registry_time_varying     MAE 3.475  RMSE 5.354
+  V4_time_varying_plus_id      MAE 3.417  RMSE 5.286
+
+MSE share of the top-1 / top-4 feeders under V0: 0.125 / 0.303, feeders [168, 184, 195, 175]
+per-feeder MSE change V3 vs V0: median -0.132, share improved 0.85
+saved pilot_out2/pilot_registry_temporal.json

@@ -1,0 +1,68 @@
+rows 1608 feeders 200 substations 121
+date range 2023-04-01 2025-03-25
+rows per feeder: mean 8.0 median 6 min 1 max 41
+
+== totals over all feeders: first row -> last row ==
+PV_systems_kW                5828.1 ->     8868.8  (+52.2%)  feeders with change: 140
+heat_pumps_kW                1431.4 ->     1742.9  (+21.8%)  feeders with change: 41
+EV_chargers_kW               3100.1 ->     3980.1  (+28.4%)  feeders with change: 53
+batteries_kW                 1073.4 ->     2664.2  (+148.2%)  feeders with change: 123
+storage_heaters_kW           8712.6 ->     8865.0  (+1.7%)  feeders with change: 18
+electric_heaters_kW          2268.7 ->     2277.7  (+0.4%)  feeders with change: 1
+hot_water_tanks_kW           1633.3 ->     1798.5  (+10.1%)  feeders with change: 18
+flow-type_heaters_kW         3889.0 ->     3961.0  (+1.9%)  feeders with change: 3
+other_consumers_kW           1379.7 ->     1379.7  (+0.0%)  feeders with change: 0
+chp_kW                         41.0 ->       41.0  (+0.0%)  feeders with change: 0
+housing_units_count          7196.0 ->     7287.0  (+1.3%)  feeders with change: 36
+industry_and_commerce_count      505.0 ->      514.0  (+1.8%)  feeders with change: 5
+
+change rows (excluding first row per feeder): 1408
+PV_systems_kW      events  328 (pos 328, neg 0); |delta| kW median 8.5, p90 15.0, max 100.0
+heat_pumps_kW      events   49 (pos 49, neg 0); |delta| kW median 6.0, p90 12.4, max 16.0
+EV_chargers_kW     events   62 (pos 62, neg 0); |delta| kW median 11.0, p90 22.0, max 44.0
+batteries_kW       events  246 (pos 246, neg 0); |delta| kW median 5.7, p90 10.0, max 25.2
+
+== events inside the recommended test year (2024-04-01..2025-03-31) ==
+PV_systems_kW      events  120, feeders  80, total delta   1037.0 kW
+heat_pumps_kW      events   30, feeders  27, total delta    196.6 kW
+EV_chargers_kW     events   27, feeders  26, total delta    363.0 kW
+batteries_kW       events   96, feeders  65, total delta    639.0 kW
+
+== per-feeder change over 2 years ==
+       PV_add_kW  HP_add_kW  EV_add_kW  BAT_add_kW  PV_add_per_unit
+count     200.00     200.00     200.00      200.00           200.00
+mean       15.20       1.56       4.40        7.95             0.65
+std        17.52       4.27       8.47        9.28             1.89
+min         0.00       0.00       0.00        0.00             0.00
+50%        10.06       0.00       0.00        5.00             0.28
+75%        23.33       0.00      11.00       12.92             0.68
+90%        36.45       6.00      22.00       20.02             1.60
+95%        47.73      10.00      22.00       26.82             2.27
+max       100.00      31.80      44.00       50.58            25.00
+
+feeders with PV added >= 30 kW: 32 | >= 100 kW: 1
+feeders whose PV more than doubled (from >0): 55 | PV from 0 to >0: 10
+
+largest PV additions (feeder, kW, first kW, units):
+        PV_add_kW  PV_first_kW  units
+feeder                               
+157        100.00        0.000      4
+187         87.13       41.131     31
+168         80.84       80.248     31
+63          72.06        6.000     18
+111         67.13       22.100     19
+57          57.80       20.529     23
+166         55.00       22.000     39
+142         53.70       39.255     47
+4           50.90       14.800     32
+180         50.63       23.374     98
+
+feeder 63 rows:
+      date  PV_systems_kW  batteries_kW  heat_pumps_kW  EV_chargers_kW  housing_units_count
+2023-04-01           6.00           0.0            0.0            11.0                   13
+2023-04-14           6.00           0.0            0.0            11.0                   13
+2024-01-01           6.00           0.0            0.0            11.0                   13
+2024-01-10          65.16          10.6            0.0            11.0                   13
+2024-03-09          65.16          10.6            0.0            11.0                   13
+2024-08-12          65.16          10.6            0.0            11.0                   15
+2025-01-20          78.06          10.6            0.0            11.0                   15

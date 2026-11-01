@@ -1,0 +1,28 @@
+mode locational | rows train/val/test 156807 14712 173431 | test feeders 20
+V0_global_no_registry        MAE 4.363  RMSE 6.768
+V2_registry_static           MAE 4.839  RMSE 7.336
+V3_registry_time_varying     MAE 4.429  RMSE 6.667
+
+== sunny_midday (rows 16920)
+  V0_global_no_registry        MAE 7.763  RMSE 11.157
+  V2_registry_static           MAE 8.785  RMSE 12.231
+  V3_registry_time_varying     MAE 7.318  RMSE 10.213
+
+== 0-30d_after_registered_change (rows 8250)
+  V0_global_no_registry        MAE 4.743  RMSE 7.333
+  V2_registry_static           MAE 5.420  RMSE 7.943
+  V3_registry_time_varying     MAE 4.767  RMSE 7.111
+
+== 0-30d_after_PV>=10kW_sunny_midday (rows 397)
+  V0_global_no_registry        MAE 6.246  RMSE 8.279
+  V2_registry_static           MAE 8.365  RMSE 11.023
+  V3_registry_time_varying     MAE 7.220  RMSE 10.110
+
+== no_change_in_last_90d (rows 150211)
+  V0_global_no_registry        MAE 4.323  RMSE 6.706
+  V2_registry_static           MAE 4.784  RMSE 7.300
+  V3_registry_time_varying     MAE 4.396  RMSE 6.623
+
+MSE share of the top-1 / top-4 feeders under V0: 0.161 / 0.452, feeders [183, 184, 194, 195]
+per-feeder MSE change V3 vs V0: median -0.038, share improved 0.75
+saved pilot_out2/pilot_registry_locational.json

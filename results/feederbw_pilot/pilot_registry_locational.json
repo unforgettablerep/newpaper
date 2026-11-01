@@ -1,0 +1,99 @@
+{
+ "mode": "locational",
+ "overall": {
+  "V0_global_no_registry": {
+   "MAE": 4.362742086005379,
+   "RMSE": 6.768454075601039
+  },
+  "V2_registry_static": {
+   "MAE": 4.838720244628478,
+   "RMSE": 7.336480946472689
+  },
+  "V3_registry_time_varying": {
+   "MAE": 4.42917558695119,
+   "RMSE": 6.6666286529083445
+  }
+ },
+ "sunny_midday": {
+  "V0_global_no_registry": {
+   "MAE": 7.763468217006976,
+   "RMSE": 11.156518022424532,
+   "n": 16920
+  },
+  "V2_registry_static": {
+   "MAE": 8.784751566607733,
+   "RMSE": 12.23087625249382,
+   "n": 16920
+  },
+  "V3_registry_time_varying": {
+   "MAE": 7.318228352210618,
+   "RMSE": 10.212651122039423,
+   "n": 16920
+  }
+ },
+ "0-30d_after_registered_change": {
+  "V0_global_no_registry": {
+   "MAE": 4.743069703010479,
+   "RMSE": 7.3331990986249,
+   "n": 8250
+  },
+  "V2_registry_static": {
+   "MAE": 5.420378910946102,
+   "RMSE": 7.943406052076707,
+   "n": 8250
+  },
+  "V3_registry_time_varying": {
+   "MAE": 4.766789810315845,
+   "RMSE": 7.111382511016712,
+   "n": 8250
+  }
+ },
+ "0-30d_after_PV>=10kW_sunny_midday": {
+  "V0_global_no_registry": {
+   "MAE": 6.246295325190592,
+   "RMSE": 8.279291736438958,
+   "n": 397
+  },
+  "V2_registry_static": {
+   "MAE": 8.364696653514176,
+   "RMSE": 11.023295387249268,
+   "n": 397
+  },
+  "V3_registry_time_varying": {
+   "MAE": 7.21959867540027,
+   "RMSE": 10.109752778255702,
+   "n": 397
+  }
+ },
+ "no_change_in_last_90d": {
+  "V0_global_no_registry": {
+   "MAE": 4.323362782220122,
+   "RMSE": 6.705789880395788,
+   "n": 150211
+  },
+  "V2_registry_static": {
+   "MAE": 4.784242286621623,
+   "RMSE": 7.299730351047203,
+   "n": 150211
+  },
+  "V3_registry_time_varying": {
+   "MAE": 4.395604237318298,
+   "RMSE": 6.623273780701331,
+   "n": 150211
+  }
+ },
+ "mse_share_top1_top4_feeders_V0": [
+  0.16051771540823218,
+  0.4520639680425859
+ ],
+ "top4_feeders_V0": [
+  183,
+  184,
+  194,
+  195
+ ],
+ "per_feeder_mse_change_V3_vs_V0": {
+  "median": -0.03822943011202873,
+  "share_improved": 0.75
+ }
+}
