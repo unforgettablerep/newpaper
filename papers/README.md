@@ -10,5 +10,6 @@
 | [`application_direction.md`](application_direction.md) | 偏应用的方向：设备台账感知的低压馈线负荷预测（FeederBW），应用方向的拥挤程度、查重，以及台账统计与先导实验（结果在 `../results/feederbw_pilot/`） |
 | [`model_direction.md`](model_direction.md) | 模型改进方案：可靠性门控的节点知识（归纳式节点知识编码器、知识条件的协变量一致分解、知识可靠性门控），逐模块查重与多数据集、多骨干的实验设计 |
 | [`model_sandbox.md`](model_sandbox.md) | 上述模型的第一版实现（newpapercode `rnk/`）与 CPU 沙盒结果：合成数据 12 个变体 × 3 个种子，FeederBW 40 条馈线的两种划分（结果在 `../results/rnk_sandbox/`） |
+| [`mamba_direction.md`](mamba_direction.md) | 方向调整：在 S-Mamba 上做三处修改（可靠性感知的选择性扫描、与扫描顺序无关的归纳式身份、外生一致分解），Mamba 时序文献查重，实验设计与代码改动计划 |
 
 参考文献 PDF 放在 `references/`，论文稿（LaTeX 源文件或导出的 PDF）放在 `manuscript/`。前期整理的参考论文（S-Mamba、GPS-Mamba、DyTimeNet、MPGTimer 等 10 篇）在 [`unforgettablerep/paperlib`](https://github.com/unforgettablerep/paperlib)。
