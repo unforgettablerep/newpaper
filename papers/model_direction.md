@@ -1,5 +1,7 @@
 # 模型改进方案：可靠性门控的节点知识（2026-11-01）
 
+> 第一版实现与沙盒结果（合成数据、FeederBW 40 条馈线）见 [`model_sandbox.md`](model_sandbox.md)：KCD 是最强、最稳的模块；门控在合成数据上接近 oracle，在真实数据上没有代价；NKE 的收益取决于身份缺口。
+
 背景：只在一个数据集上做预测不足以支撑论文，需要模型层面的改进。本文件把已有发现（身份嵌入、Traffic 漂移传感器、FeederBW 台账先导）归纳成一个跨数据集的问题，提出由三个模块组成的模型，并逐个模块查重，给出多数据集、多骨干的实验设计。数据与先导实验见 [`application_direction.md`](application_direction.md)，推导见 [`theory.md`](theory.md)、[`theory_directions.md`](theory_directions.md)。文献细节来自全文（标注"全文"）或摘要（标注"摘要"），引用前请再核对原文。
 
 ## 结论
